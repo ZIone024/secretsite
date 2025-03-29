@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Простой сайт с паролем</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Добро пожаловать на мой сайт!</h1>
+    <div id="login-form">
+      <input type="password" id="password" placeholder="Введите пароль">
+      <button onclick="checkPassword()">Войти</button>
+      <p id="error-message" style="color:red; display:none;">Неверный пароль!</p>
+    </div>
+    <div id="content" style="display:none;">
+      <a href="https://t.me/zione24" target="_blank">Перейти в Telegram</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
